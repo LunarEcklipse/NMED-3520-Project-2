@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Sea of Thieves Tours - Crook's Hollow</title>
+    </head>
+    <body>
+        <header>
+            <div class="hdr-top-wrapper">
+                <div class="hdr-logo">
+                    <h1><a href="../index.html">Sea of Thieves Tours</a></h1>
+                </div>
+                <div class="hdr-nav-bars" onclick="hamburgerToggle()">
+                    <i class="fa fa-bars" id="hdr-nav-bars-ico"></i>
+                </div>
+            </div>
+            <div class="hdr-nav" id="hdr-nav">
+                <div class="hdr-nav-item" onclick="location.href='../index.html'"><p>Home</p></div>
+                <div class="hdr-nav-item" onclick="location.href='../about.html'"><p>About</p></div>
+                <div class="hdr-nav-item" onclick="location.href='../destinations.html'"><p>Destinations</p></div>
+            </div>
+        </header>
+        <main>
+            <div class="main-text-content">
+                <div class="main-text-hdr" id="crooks-hollow-hdr">
+                    <h1 class="dest-header">Crook's Hollow</h1>
+                </div>
+                <div class="main-text-body">
+                    <h2>Spelunking, Adventure, Climbing? Oh my!</h2>
+                    <div class="dest-text-subitem-wrapper">
+                        <div class="main-text-subitem dest-text-subitem">
+                            <h2>Ancient Caves</h2>
+                            <p class="main-text-subitem-desc">With extensive caves sprawling throughout the island, caving fans will have a blast exploring the winding tunnels for hours. Rumor has it that if you look hard enough, you may even find an ancient vault full of gold! Just be careful to not step in any spikes!</p>
+                        </div>
+                        <div class="main-text-subitem dest-text-subitem">
+                            <img src="../rsc/img/Crook's_Hollow_Vault.png" width="100%" height="100%">
+                        </div>
+                        <div class="main-text-subitem dest-text-subitem">
+                            <h2>Danger Around Every Corner</h2>
+                            <p class="main-text-subitem-desc">Both entrepeneurs and thrillseekers will find what they're looking for here. From traps, to the undead, to your very own treacherous allies, you'll never have a quiet moment at Crook's Hollow.</p>
+                            <h3>Package Price: 6,700 G</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="main-footer-padding"></div>
+        <footer>
+                <p class="legal-info">The Merchant Alliance assumes no responsibility for any incidents of muggings, hurricanes, heists, robberies, drunk and disorderly conduct, arson, drownings, scurvy, barratry, sank ships, kidnappings, spontaneous combustion, arena closures, poisonings, murders, lightning strikes, shark attacks, siren attacks, backstabbings, boarding parties, electrocutions, tuckers, boatjackings, accidents due to sailing while under the influence of alcohol, ancient curses, snake bites, illnesses due to undercooked meat, grade 5 reaper emissaries, tornadoes (regular or burning), accidents arising from poor piloting skills, teeth lost due to cannonball impacts, potassium overdoses, defenestrations, necromancy, volcanic eruptions, liver cirrhosis, Disney licensing agreements, dismemberment arising from the irresponsible use of explosives, shark racism, unauthorized resurrections, bad hit registration, flying boats, injuries caused by abnormally large octopi, depressive episodes after visiting Old Faithful Isle, toxic double gunners, Strawberrybeards, rituals to summon forth legions of the undead, Twitch streamers, the complete failure of the fundamental laws of physics, or wire fraud.</p>
+                <p class="legal-info">Image Attributions:<ul><li>Crook's Hollow and Sailors' Bounty Shrine images taken by Kallnohae (Sea of Thieves Wiki)</li><li>Crook's Hollow Vault image taken by Edmund Keppler (Sea of Thieves Wiki)</li><li>Thieves' Haven image taken by Dannenheim (Sea of Thieves Wiki).</li><li>Chief Trader Mollie image official promotional material by Rare</li><li>All other images taken by Kaden Duncan-Matis for Sea of Thieves Wiki.</li><li>Sea of Thieves is the intellectual property of Rare.</li></ul></p>    
+        </footer>
+        <!-- The following code worked out with help from W3Schools: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+        <script>
+            function hamburgerToggle() {
+              var x = document.getElementById("hdr-nav");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            </script>
+    </body>
+</html>

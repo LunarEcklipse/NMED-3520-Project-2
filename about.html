@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Sea of Thieves Tours - About</title>
+    </head>
+    <body>
+        <header>
+            <div class="hdr-top-wrapper">
+                <div class="hdr-logo">
+                    <h1><a href="#">Sea of Thieves Tours</a></h1>
+                </div>
+                <div class="hdr-nav-bars" onclick="hamburgerToggle()">
+                    <i class="fa fa-bars" id="hdr-nav-bars-ico"></i>
+                </div>
+            </div>
+            <div class="hdr-nav" id="hdr-nav">
+                <div class="hdr-nav-item" onclick="location.href='index.html'"><p>Home</p></div>
+                <div class="hdr-nav-item"><p>About</p></div>
+                <div class="hdr-nav-item" onclick="location.href='destinations.html'"><p>Destinations</p></div>
+            </div>
+        </header>
+        <main>
+            <div class="main-text-content">
+                <div class="main-text-hdr">
+                    <h1>Serving the Sea of Thieves Since 1688.</h1>
+                </div>
+                <div class="main-text-body">
+                    <h3 style="font-weight:normal;">Since arriving in the Sea of Thieves in 1688, the Merchant Alliance has sponsored thousands of tours throughout the Sea of Thieves. Visiting dozens of islands, members of the Merchant Alliance have provided trade infrastructure to the inhabitants for over 20 years.</h3>
+                </div>
+            </div>
+        </main>
+        <footer>
+                <p class="legal-info">The Merchant Alliance assumes no responsibility for any incidents of muggings, hurricanes, heists, robberies, drunk and disorderly conduct, arson, drownings, scurvy, barratry, sank ships, kidnappings, spontaneous combustion, arena closures, poisonings, murders, lightning strikes, shark attacks, siren attacks, backstabbings, boarding parties, electrocutions, tuckers, boatjackings, accidents due to sailing while under the influence of alcohol, ancient curses, snake bites, illnesses due to undercooked meat, grade 5 reaper emissaries, tornadoes (regular or burning), accidents arising from poor piloting skills, teeth lost due to cannonball impacts, potassium overdoses, defenestrations, necromancy, volcanic eruptions, liver cirrhosis, Disney licensing agreements, dismemberment arising from the irresponsible use of explosives, shark racism, unauthorized resurrections, bad hit registration, flying boats, injuries caused by abnormally large octopi, depressive episodes after visiting Old Faithful Isle, toxic double gunners, Strawberrybeards, rituals to summon forth legions of the undead, Twitch streamers, the complete failure of the fundamental laws of physics, or wire fraud.</p>
+                <br />    
+                <p class="legal-info">Crook's Hollow and Sailors' Bounty Shrine images taken by Kallnohae (Sea of Thieves Wiki)</p><p class="legal-info">Crook's Hollow Vault image taken by Edmund Keppler (Sea of Thieves Wiki)</p><p class="legal-info">Thieves' Haven image taken by Dannenheim (Sea of Thieves Wiki).</p><p class="legal-info">Chief Trader Mollie image official promotional material by Rare</p><p class="legal-info">All other images taken by Kaden Duncan-Matis for Sea of Thieves Wiki.</p><p class="legal-info">Sea of Thieves is the intellectual property of Rare.</p>      
+        </footer>
+        <!-- The following code worked out with help from W3Schools: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+        <script>
+            function hamburgerToggle() {
+              var x = document.getElementById("hdr-nav");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            </script>
+    </body>
+</html>

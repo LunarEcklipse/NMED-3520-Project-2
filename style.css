@@ -1,0 +1,416 @@
+@font-face { font-family: 'Windlass'; src: url('rsc/ttf/Windlass.ttf');}
+@font-face { font-family: 'Prag Roman'; src: url('rsc/ttf/PragRoman.ttf');}
+
+html
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    padding:0%;
+    margin:0%;
+    background-color:rgb(142, 86, 46);
+}
+
+p
+{
+    font-family: 'Prag Roman', serif
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Windlass', sans-serif
+}
+
+.hdr-top-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height:156px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin:0px;
+    background-color:#5BE03D;
+    color:#FFFFFF;
+    font-variant:small-caps;
+}
+
+.hdr-logo
+{
+    margin-left:0.2em;
+    cursor: default;
+}
+
+.hdr-logo h1
+{
+    margin-bottom:0.1em;
+    margin-top:0.2em;
+    font-size:3em;
+    white-space:nowrap;
+}
+
+.hdr-logo a
+{
+    font-weight: normal;
+    text-decoration:none;
+    
+    color:#ffffff;
+    transition: color 0.25s;
+}
+
+.hdr-logo a:hover
+{
+    color:rgb(230, 230, 230);
+    cursor:pointer;
+    transition:color 0.25s;
+}
+
+.hdr-nav-bars
+{
+    display:flex;
+    padding-left:0.75em;
+    padding-right:0.75em;
+    height:100%;
+    background-color:rgb(142, 86, 46);
+    justify-content:center;
+    font-size:36px;
+    transition: background-color 0.25s;
+}
+
+.hdr-nav-bars i
+{
+    color:#ffffff;
+    transition: color 0.25s;
+}
+
+.hdr-nav-bars:hover
+{
+    background-color:#754726;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+
+.hdr-nav-bars:hover i
+{
+    color:#FFFFFF;
+    transition: color 0.25s;
+}
+
+#hdr-nav
+{
+    display:none;
+}
+
+.hdr-nav-item
+{
+    text-align:center;
+    font-family: 'Prag Roman', sans-serif;
+    font-size:24px;
+    white-space:nowrap;
+    background-color:#754726;
+    border: 1px solid rgb(194, 202, 209);
+    color:rgb(194, 202, 209);
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.hdr-nav-item:hover
+{
+    background-color:#DB8446;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+.fa
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+.img-hdr-wrapper
+{
+    max-width: 100%;
+    display: block;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.img-hdr
+{
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.main-text-hdr
+{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    vertical-align:center;
+    background-image: url('rsc/img/Crooks_Hollow.png');
+    background-size:cover;
+    font-variant: small-caps;
+    padding-bottom:2em;
+    min-height:40em;
+}
+
+#crooks-hollow-hdr
+{
+    background-image: url('rsc/img/Crooks_Hollow.png') !important;
+}
+
+#sailors-bounty-hdr
+{
+    background-image: url('rsc/img/Sailors_Bounty.jpg') !important;
+}
+
+#flintlock-peninsula-hdr
+{
+    background-image: url('rsc/img/Flintlock_Peninsula.png') !important;
+}
+
+#thieves-haven-hdr
+{
+    background-image: url('rsc/img/Thieves_Haven.png') !important;
+}
+
+.main-text-hdr h1
+{
+    color: #FFFFFF;
+    text-shadow: -2px -2px 0 #754726, 2px -2px 0 #754726, -2px 2px 0 #754726, 2px 2px 0 #754726;
+    font-weight:normal;
+    font-size:3em;
+    margin:auto;
+    justify-content:center;
+}
+
+.main-text-hdr h3
+{
+    font-weight:normal;
+}
+
+.main-text-hdr-btn
+{
+    background-color:#754726;
+    color: #FFD3B7;
+    margin:auto;
+    display:block;
+    width:15%;
+    min-width:200px;
+    border: 1px solid #FFD3B7;
+    text-align:center;
+    font-size: 1.25em;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.main-text-hdr-btn:hover
+{
+    background-color:#DB8446;
+    color:#FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+.main-text-hdr-btn p
+{
+    vertical-align:middle;
+}
+
+.main-text-content
+{
+    margin-top:0;
+    color: #FFFFFF;
+    background-color:#754726;
+}
+
+.main-text-body
+{
+    text-align:center;
+    font-family: 'Prag Roman', serif;
+    font-variant:small-caps;
+}
+
+.main-text-body h2
+{
+    font-weight:normal;
+    font-size:2em;
+}
+
+.main-text-subitem-wrapper
+{
+    display:grid;
+    margin:auto;
+    overflow:hidden;
+    grid-template-columns: 100%;
+    justify-content:center;
+    
+}
+
+.dest-text-subitem-wrapper
+{
+    display:grid;
+    margin:auto;
+    overflow:hidden;
+    grid-template-columns: 100%;
+    justify-content:center;
+}
+
+.main-text-mobile-separator
+{
+    border: 0.5px solid #754726;
+    width:90%;
+}
+
+.main-text-subitem
+{
+    border-right:1px solid #754726;
+    border-left: 1px solid #754726;
+    background-color: rgb(142, 86, 46);
+    transition: background-color 0.25s;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+
+.main-text-subitem:hover
+{
+    background-color: rgb(147, 91, 51)
+
+}
+.main-text-subitem h3, .main-text-subitem p
+{
+    margin:auto;
+    max-width:90%;
+}
+
+.main-text-subitem h3
+{
+    margin-top:1em;
+    font-family: 'Windlass', sans-serif;
+    margin-bottom:1em;
+    font-weight:normal;
+    font-size:1.5em;
+}
+
+.main-text-subitem-desc
+{
+    font-family: 'Prag Roman', serif;
+    font-variant:normal;
+    color: #FFFFFF;
+    line-height:2;
+}
+
+.main-text-subitem-btn
+{
+    background-color: #754726;
+    color: #FFD3B7;
+    font-variant:small-caps;
+    margin:auto;
+    font-size:1.30em;
+    margin-top:20px;
+    line-height:2;
+    margin-bottom: 20px;
+    min-width: 200px;
+    width:50%;
+    border:1px solid #FFD3B7;
+    cursor:pointer;
+    transition: background-color 0.25s, color 0.25s, border 0.25s;
+}
+
+.main-text-subitem-btn:hover
+{
+    color: #ffffff;
+    background-color: #DB8446;
+    border:1px solid #ffffff;
+    transition: background-color 0.25s, color 0.25s, border 0.25s;
+}
+
+.dest-text-subitem
+{
+    margin-top:10px !important;
+    margin-bottom:10px !important;
+}
+
+.main-footer-padding
+{
+    width:100%;
+    margin:0px;
+    height:2em;
+    background-color:#754726;
+}
+
+footer
+{
+    display:block;
+    width:100%;
+    background-color: #2F7520;
+    padding-top:2em;
+    padding-bottom:2em;
+    align-items:center;
+    justify-content:center;
+}
+
+.legal-info
+{
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family: 'Prag Roman', serif;
+    font-size:x-small;
+    color: #ffffff;
+    line-height:1.5;
+}
+
+.dest-header
+{
+    font-size:4em !important;
+    margin-top:5% !important;
+}
+
+/* TODO: Make the navbar go under the logo if the window gets smaller than 735px wide.*/
+
+@media only screen and (min-width:768px)
+{
+    .hdr-top-wrapper
+    {
+        flex-direction: row;
+        height:65px;
+    }
+
+    .hdr-logo h1
+    {
+        margin:auto;
+        margin-left:0.2em;
+        font-size: 2em;
+    }
+
+    .hdr-nav-bars
+    {
+        font-size:28px;
+    }
+
+    .main-text-subitem-wrapper
+    {
+        grid-template-columns: minmax(300px, 30%) minmax(300px, 30%) minmax(300px, 30%);
+    }
+
+    .dest-text-subitem-wrapper
+    {
+        grid-template-columns: minmax(700px, 90%);
+    }
+
+    .main-text-mobile-separator
+    {
+        border: 0px solid white;
+    }
+
+    .dest-header
+    {
+        font-size:5em !important;
+    }
+}
